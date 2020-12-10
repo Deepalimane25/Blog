@@ -1,5 +1,5 @@
 import React from 'react';
-// import CommentBox from '../components/comments/comment-box';
+import CommentBox from '../components/comments/comment-box';
 
 export default class PicturePage extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class PicturePage extends React.Component {
           </div>
 
           {/* Load the component CommentBox with the required prop apiUrl */}
-          {/* <CommentBox apiUrl="api/pictures/comments.json" /> */}
+          <CommentBox apiUrl="api/pictures/comments.json" />
         </div>
     )
   }

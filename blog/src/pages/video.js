@@ -1,5 +1,5 @@
 import React from 'react';
-// import CommentBox from '../components/comments/comment-box';
+import CommentBox from '../components/comments/comment-box';
 
 export default class VideoPage extends React.Component {
   render() {
@@ -20,7 +20,7 @@ export default class VideoPage extends React.Component {
           </div>
 
           {/* Load the component CommentBox with the required prop apiUrl */}
-          {/* <CommentBox apiUrl="api/videos/comments.json" /> */}
+          <CommentBox apiUrl="api/videos/comments.json" />
         </div>
     )
   }
