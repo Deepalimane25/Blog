@@ -9,7 +9,7 @@ export default class VideoPage extends React.Component {
             <article className="article article--video">
 
               <div className="article--picture-author">
-                Video by <strong>@morganmccircuit</strong>
+                Video 
               </div>
 
               <div className="article--video-img">

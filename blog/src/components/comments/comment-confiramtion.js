@@ -8,10 +8,6 @@ export default class CommentConfirmation extends React.Component {
       showConfirm: false
     };
 
-    // every time setState is called the render function gets called again
-    // every time we do .bind inline we are making a new reference every time render is called
-    // by doing this we are relying on the garbage collector to get rid of those objects over time
-    // whereas if we pre-bind them we are only using one memory reference
     this._confirmDelete = this._confirmDelete.bind(this);
     this._toggleConfirmMessage = this._toggleConfirmMessage.bind(this);
   }
