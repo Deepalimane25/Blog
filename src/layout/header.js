@@ -1,6 +1,5 @@
 import React from 'react';
-import {Link, BrowserRouter} from 'react-router-dom';
-import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 // import { NavLink } from "react-router-dom";
 
@@ -16,7 +15,7 @@ export default class Header extends React.Component {
         <li><Link to='/'>Home</Link></li>
               <li><Link to='/picture'> Picture</Link></li>
               <li><Link to='./video'>Video</Link></li>
-              {/* <li><Link to='./message'>Messages</Link></li> */}
+              <li><Link to='./helloworld'>Messages</Link></li>
             </ul>
           </nav>
         </header>
