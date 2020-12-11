@@ -16,7 +16,7 @@ export default class Hello extends React.Component {
   render() {
     return (
       <div className="hello">{this.state.greeting} {this.props.name}!
-        <button onClick={this._frenchify}>Frencify!</button>
+        {/* <button onClick={this._frenchify}>Frencify!</button> */}
         <button onClick={this._removeGreeting}>Remove Me!</button>
       </div>
     );
