@@ -9,7 +9,6 @@ export default class Hello extends React.Component {
       greeting: 'Hello'
     };
 
-    this._frenchify = this._frenchify.bind(this);
     this._removeGreeting = this._removeGreeting.bind(this);
   }
 
@@ -20,11 +19,6 @@ export default class Hello extends React.Component {
         <button onClick={this._removeGreeting}>Remove Me!</button>
       </div>
     );
-  }
-
-  _frenchify(event) {
-    event.preventDefault();
-    this.setState({ greeting: 'Bonjour' });
   }
 
   _removeGreeting(event) {

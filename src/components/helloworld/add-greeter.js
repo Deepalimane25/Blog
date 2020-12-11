@@ -12,7 +12,7 @@ export default class AddGreeter extends React.Component {
     return (
       <div className="add-greeter">
         <input placeholder="Name" type="text" ref={input => this._greetingName = input}/>
-        <button onClick={this._addGreeting}>Add</button>
+        <button onClick={this._addGreeting}>JOIN</button>
       </div>
     );
   }

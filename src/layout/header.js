@@ -15,7 +15,7 @@ export default class Header extends React.Component {
         <li><Link to='/'>Home</Link></li>
               <li><Link to='/picture'> Picture</Link></li>
               <li><Link to='./video'>Video</Link></li>
-              <li><Link to='./helloworld'>Messages</Link></li>
+              <li><Link to='./helloworld'>Message Me!</Link></li>
             </ul>
           </nav>
         </header>
