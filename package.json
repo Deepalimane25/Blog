@@ -1,6 +1,5 @@
 {
   "name": "blog",
-  "homepage": "https://Deepalimane25.github.io/Blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
